@@ -1,0 +1,408 @@
+[{
+  "_id": "685305f70f09a8a499f32eec",
+  "meta": {
+    "sentAt": "2025-06-18T18:30:09.907Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "language": "en-US"
+  },
+  "batch": [
+    {
+      "type": "click",
+      "actionName": "Clicked on services",
+      "element": {
+        "tag": "a",
+        "text": "services",
+        "attributes": {}
+      },
+      "event": {},
+      "page": {
+        "url": "https://mikechiloane.co.za/",
+        "path": "/",
+        "referrer": "",
+        "title": "Mike Chiloane Portfolio Site",
+        "width": 1470,
+        "height": 301
+      },
+      "timestamp": "2025-06-18T18:30:00.534Z",
+      "userId": "usr-uxp06pi6a",
+      "sessionId": "ses-krmklgjk1ih",
+      "deviceId": "dev-3do3wsed"
+    },
+    {
+      "type": "click",
+      "actionName": "Clicked on resume",
+      "element": {
+        "tag": "a",
+        "text": "resume",
+        "attributes": {}
+      },
+      "event": {},
+      "page": {
+        "url": "https://mikechiloane.co.za/services",
+        "path": "/services",
+        "referrer": "",
+        "title": "Mike Chiloane Portfolio Site",
+        "width": 1470,
+        "height": 301
+      },
+      "timestamp": "2025-06-18T18:30:06.348Z",
+      "userId": "usr-uxp06pi6a",
+      "sessionId": "ses-krmklgjk1ih",
+      "deviceId": "dev-3do3wsed"
+    }
+  ],
+  "timestamp": {
+    "$date": "2025-06-18T18:31:19.548Z"
+  },
+  "_class": "com.recceda.webeventcollector.model.WebEvent"
+},
+{
+  "_id": "685305f80f09a8a499f32eed",
+  "meta": {
+    "sentAt": "2025-06-18T18:31:20.205Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "language": "en-US"
+  },
+  "batch": [
+    {
+      "type": "click",
+      "actionName": "View technologies",
+      "element": {
+        "tag": "a",
+        "text": "technologies",
+        "attributes": {}
+      },
+      "event": {},
+      "page": {
+        "url": "https://mikechiloane.co.za/resume/experience",
+        "path": "/resume/experience",
+        "referrer": "",
+        "title": "Mike Chiloane Portfolio Site",
+        "width": 1470,
+        "height": 301
+      },
+      "timestamp": "2025-06-18T18:30:11.735Z",
+      "userId": "usr-uxp06pi6a",
+      "sessionId": "ses-krmklgjk1ih",
+      "deviceId": "dev-3do3wsed"
+    },
+    {
+      "type": "click",
+      "actionName": "View education",
+      "element": {
+        "tag": "a",
+        "text": "education",
+        "attributes": {}
+      },
+      "event": {},
+      "page": {
+        "url": "https://mikechiloane.co.za/resume/technologies",
+        "path": "/resume/technologies",
+        "referrer": "",
+        "title": "Mike Chiloane Portfolio Site",
+        "width": 1470,
+        "height": 301
+      },
+      "timestamp": "2025-06-18T18:30:13.970Z",
+      "userId": "usr-uxp06pi6a",
+      "sessionId": "ses-krmklgjk1ih",
+      "deviceId": "dev-3do3wsed"
+    },
+    {
+      "type": "click",
+      "actionName": "View experience",
+      "element": {
+        "tag": "a",
+        "text": "experience",
+        "attributes": {}
+      },
+      "event": {},
+      "page": {
+        "url": "https://mikechiloane.co.za/resume/education",
+        "path": "/resume/education",
+        "referrer": "",
+        "title": "Mike Chiloane Portfolio Site",
+        "width": 1470,
+        "height": 301
+      },
+      "timestamp": "2025-06-18T18:30:16.069Z",
+      "userId": "usr-uxp06pi6a",
+      "sessionId": "ses-krmklgjk1ih",
+      "deviceId": "dev-3do3wsed"
+    },
+    {
+      "type": "click",
+      "actionName": "View education",
+      "element": {
+        "tag": "a",
+        "text": "education",
+        "attributes": {}
+      },
+      "event": {},
+      "page": {
+        "url": "https://mikechiloane.co.za/resume/experience",
+        "path": "/resume/experience",
+        "referrer": "",
+        "title": "Mike Chiloane Portfolio Site",
+        "width": 1470,
+        "height": 301
+      },
+      "timestamp": "2025-06-18T18:30:25.131Z",
+      "userId": "usr-uxp06pi6a",
+      "sessionId": "ses-krmklgjk1ih",
+      "deviceId": "dev-3do3wsed"
+    },
+    {
+      "type": "click",
+      "actionName": "View technologies",
+      "element": {
+        "tag": "a",
+        "text": "technologies",
+        "attributes": {}
+      },
+      "event": {},
+      "page": {
+        "url": "https://mikechiloane.co.za/resume/education",
+        "path": "/resume/education",
+        "referrer": "",
+        "title": "Mike Chiloane Portfolio Site",
+        "width": 1470,
+        "height": 301
+      },
+      "timestamp": "2025-06-18T18:30:27.636Z",
+      "userId": "usr-uxp06pi6a",
+      "sessionId": "ses-krmklgjk1ih",
+      "deviceId": "dev-3do3wsed"
+    },
+    {
+      "type": "click",
+      "actionName": "Clicked on work",
+      "element": {
+        "tag": "a",
+        "text": "work",
+        "attributes": {}
+      },
+      "event": {},
+      "page": {
+        "url": "https://mikechiloane.co.za/resume/technologies",
+        "path": "/resume/technologies",
+        "referrer": "",
+        "title": "Mike Chiloane Portfolio Site",
+        "width": 1470,
+        "height": 301
+      },
+      "timestamp": "2025-06-18T18:30:29.569Z",
+      "userId": "usr-uxp06pi6a",
+      "sessionId": "ses-krmklgjk1ih",
+      "deviceId": "dev-3do3wsed"
+    }
+  ],
+  "timestamp": {
+    "$date": "2025-06-18T18:31:20.648Z"
+  },
+  "_class": "com.recceda.webeventcollector.model.WebEvent"
+},
+{
+  "_id": "68540552ff1c041feb845586",
+  "meta": {
+    "sentAt": "2025-06-19T12:39:24.006Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "language": "en-US"
+  },
+  "batch": [
+    {
+      "type": "click",
+      "actionName": "Clicked on resume",
+      "element": {
+        "tag": "a",
+        "text": "resume",
+        "attributes": {}
+      },
+      "event": {},
+      "page": {
+        "url": "https://mikechiloane.co.za/work",
+        "path": "/work",
+        "referrer": "",
+        "title": "Mike Chiloane Portfolio Site",
+        "width": 1470,
+        "height": 301
+      },
+      "timestamp": "2025-06-19T12:39:19.170Z",
+      "userId": "usr-uxp06pi6a",
+      "sessionId": "ses-g4fmga07x84",
+      "deviceId": "dev-3do3wsed"
+    },
+    {
+      "type": "click",
+      "actionName": "View education",
+      "element": {
+        "tag": "a",
+        "text": "education",
+        "attributes": {}
+      },
+      "event": {},
+      "page": {
+        "url": "https://mikechiloane.co.za/resume/experience",
+        "path": "/resume/experience",
+        "referrer": "",
+        "title": "Mike Chiloane Portfolio Site",
+        "width": 1470,
+        "height": 301
+      },
+      "timestamp": "2025-06-19T12:39:21.732Z",
+      "userId": "usr-uxp06pi6a",
+      "sessionId": "ses-g4fmga07x84",
+      "deviceId": "dev-3do3wsed"
+    }
+  ],
+  "timestamp": {
+    "$date": "2025-06-19T12:40:49.782Z"
+  },
+  "_class": "com.recceda.webeventcollector.model.WebEvent"
+},
+{
+  "_id": "68540556ff1c041feb845587",
+  "meta": {
+    "sentAt": "2025-06-19T12:40:54.013Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "language": "en-US"
+  },
+  "batch": [
+    {
+      "type": "click",
+      "actionName": "View technologies",
+      "element": {
+        "tag": "a",
+        "text": "technologies",
+        "attributes": {}
+      },
+      "event": {},
+      "page": {
+        "url": "https://mikechiloane.co.za/resume/education",
+        "path": "/resume/education",
+        "referrer": "",
+        "title": "Mike Chiloane Portfolio Site",
+        "width": 1470,
+        "height": 301
+      },
+      "timestamp": "2025-06-19T12:39:29.798Z",
+      "userId": "usr-uxp06pi6a",
+      "sessionId": "ses-g4fmga07x84",
+      "deviceId": "dev-3do3wsed"
+    },
+    {
+      "type": "click",
+      "actionName": "Clicked on work",
+      "element": {
+        "tag": "a",
+        "text": "work",
+        "attributes": {}
+      },
+      "event": {},
+      "page": {
+        "url": "https://mikechiloane.co.za/resume/technologies",
+        "path": "/resume/technologies",
+        "referrer": "",
+        "title": "Mike Chiloane Portfolio Site",
+        "width": 1470,
+        "height": 301
+      },
+      "timestamp": "2025-06-19T12:39:33.532Z",
+      "userId": "usr-uxp06pi6a",
+      "sessionId": "ses-g4fmga07x84",
+      "deviceId": "dev-3do3wsed"
+    },
+    {
+      "type": "click",
+      "actionName": "Clicked on contact",
+      "element": {
+        "tag": "a",
+        "text": "contact",
+        "attributes": {}
+      },
+      "event": {},
+      "page": {
+        "url": "https://mikechiloane.co.za/work",
+        "path": "/work",
+        "referrer": "",
+        "title": "Mike Chiloane Portfolio Site",
+        "width": 1470,
+        "height": 301
+      },
+      "timestamp": "2025-06-19T12:39:36.971Z",
+      "userId": "usr-uxp06pi6a",
+      "sessionId": "ses-g4fmga07x84",
+      "deviceId": "dev-3do3wsed"
+    },
+    {
+      "type": "click",
+      "actionName": "Clicked on home",
+      "element": {
+        "tag": "a",
+        "text": "home",
+        "attributes": {}
+      },
+      "event": {},
+      "page": {
+        "url": "https://mikechiloane.co.za/contact",
+        "path": "/contact",
+        "referrer": "",
+        "title": "Mike Chiloane Portfolio Site",
+        "width": 1470,
+        "height": 301
+      },
+      "timestamp": "2025-06-19T12:39:40.815Z",
+      "userId": "usr-uxp06pi6a",
+      "sessionId": "ses-g4fmga07x84",
+      "deviceId": "dev-3do3wsed"
+    },
+    {
+      "type": "click",
+      "actionName": "Clicked on services",
+      "element": {
+        "tag": "a",
+        "text": "services",
+        "attributes": {}
+      },
+      "event": {},
+      "page": {
+        "url": "https://mikechiloane.co.za/",
+        "path": "/",
+        "referrer": "",
+        "title": "Mike Chiloane Portfolio Site",
+        "width": 1470,
+        "height": 301
+      },
+      "timestamp": "2025-06-19T12:39:43.689Z",
+      "userId": "usr-uxp06pi6a",
+      "sessionId": "ses-g4fmga07x84",
+      "deviceId": "dev-3do3wsed"
+    },
+    {
+      "type": "click",
+      "actionName": "Clicked on resume",
+      "element": {
+        "tag": "a",
+        "text": "resume",
+        "attributes": {}
+      },
+      "event": {},
+      "page": {
+        "url": "https://mikechiloane.co.za/services",
+        "path": "/services",
+        "referrer": "",
+        "title": "Mike Chiloane Portfolio Site",
+        "width": 1470,
+        "height": 301
+      },
+      "timestamp": "2025-06-19T12:39:45.715Z",
+      "userId": "usr-uxp06pi6a",
+      "sessionId": "ses-g4fmga07x84",
+      "deviceId": "dev-3do3wsed"
+    }
+  ],
+  "timestamp": {
+    "$date": "2025-06-19T12:40:54.283Z"
+  },
+  "_class": "com.recceda.webeventcollector.model.WebEvent"
+}]
