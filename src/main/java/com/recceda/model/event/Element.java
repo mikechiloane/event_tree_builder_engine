@@ -1,4 +1,4 @@
-package com.recceda.webeventcollector.model;
+package com.recceda.model.event;
 
 import lombok.Getter;
 import lombok.Setter;

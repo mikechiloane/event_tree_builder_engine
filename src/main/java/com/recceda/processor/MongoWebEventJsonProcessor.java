@@ -10,7 +10,7 @@ import com.recceda.model.WebEvent;
 import java.time.Instant;
 import java.util.List;
 
-public class WebEventJsonProcessor implements EventsInputProcessor {
+public class MongoWebEventJsonProcessor implements EventsInputProcessor {
 
     @Override
     public List<WebEvent> process(String jsonInput) throws Exception {
