@@ -1,9 +1,10 @@
-package com.recceda.model.event;
+package com.recceda.model;
 
+import com.recceda.model.event.Event;
+import com.recceda.model.event.Meta;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-
 
 import java.time.Instant;
 import java.util.List;
@@ -14,7 +15,8 @@ import java.util.List;
 @NoArgsConstructor
 public class WebEvent {
 
-    private String id;
     private Meta meta;
-    private List<Batch> batch;
+    private List<Event> events;
+    private Instant timestamp;
+
 }

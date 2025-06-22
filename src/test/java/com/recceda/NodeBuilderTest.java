@@ -1,32 +1,30 @@
 package com.recceda;
 
-import com.recceda.model.EventNode;
-import com.recceda.model.WebEvent;
-import com.recceda.model.event.Batch;
-import com.recceda.processor.MongoWebEventJsonProcessor;
-import com.recceda.processor.MongoWebEventJsonProcessorTest;
+import com.recceda.model.event.Event;
+import com.recceda.model.event.Page;
 import junit.framework.TestCase;
 
-import java.nio.file.Files;
-import java.util.ArrayList;
-import java.util.List;
-
-public class NodeGeneratorTest extends TestCase {
-
-    public void testNodeBuilder() throws Exception {
-        String filePath = "src/test/resources/webevents.json";
-        String jsonInput = new String(Files.readAllBytes(java.nio.file.Paths.get(filePath)));
-        List<WebEvent> webEvents = new MongoWebEventJsonProcessor().process(jsonInput);
-        List<Batch> batches = new ArrayList<>();
-        for(WebEvent webEvent : webEvents) {
-            batches.addAll(webEvent.getBatch());
-        }
-
-        EventNode  node = NodeGenerator.buildNode(batches.get(0));
-
-        }
+public class NodeBuilderTest extends TestCase {
 
 
+    public void testLevelClassifier() throws Exception {
+        Event testEvent = getTestEvent();
+        int level = NodeBuilder.getLevel(testEvent);
+        assertEquals("Level should be 0 for root path", 0, level);
+
+        String eventPath = "/a/b/c";
+        testEvent.getPage().setPath(eventPath);
+        level = NodeBuilder.getLevel(testEvent);
+        assertEquals("Level should be 3 for path /a/b/c", 2, level);
     }
+
+    public Event getTestEvent() {
+        Page page = new Page();
+        page.setPath("/");
+        Event event = new Event();
+        event.setPage(page);
+        return event;
+    }
+
 
 }

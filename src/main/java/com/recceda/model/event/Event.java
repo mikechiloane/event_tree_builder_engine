@@ -7,7 +7,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class Batch {
+public class Event {
     private String type;
     private String actionName;
     private Element element;

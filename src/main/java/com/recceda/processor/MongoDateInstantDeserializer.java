@@ -16,6 +16,6 @@ public class MongoDateInstantDeserializer extends JsonDeserializer<Instant> {
         if (dateNode != null && dateNode.isTextual()) {
             return Instant.parse(dateNode.asText());
         }
-        return null; // or throw an exception
+        return null;
     }
 }

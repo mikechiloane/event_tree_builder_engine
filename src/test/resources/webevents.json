@@ -5,7 +5,7 @@
     "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
     "language": "en-US"
   },
-  "batch": [
+  "events": [
     {
       "type": "click",
       "actionName": "Clicked on services",
@@ -63,7 +63,7 @@
     "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
     "language": "en-US"
   },
-  "batch": [
+  "events": [
     {
       "type": "click",
       "actionName": "View technologies",
@@ -209,7 +209,7 @@
     "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
     "language": "en-US"
   },
-  "batch": [
+  "events": [
     {
       "type": "click",
       "actionName": "Clicked on resume",
@@ -267,7 +267,7 @@
     "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
     "language": "en-US"
   },
-  "batch": [
+  "events": [
     {
       "type": "click",
       "actionName": "View technologies",
