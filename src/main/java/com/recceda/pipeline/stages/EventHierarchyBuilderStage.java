@@ -56,5 +56,4 @@ public class EventHierarchyBuilderStage implements PipelineStage<List<EventNode>
         return stageName;
     }
 
-
 }
