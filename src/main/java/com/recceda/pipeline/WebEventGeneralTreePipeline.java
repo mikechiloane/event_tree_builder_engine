@@ -5,6 +5,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import com.recceda.model.WebEvent;
+
 import lombok.Getter;
 import lombok.Setter;
 
@@ -14,7 +15,7 @@ public class WebEventGeneralTreePipeline {
     private final List<PipelineStage<?, ?>> stages;
     @Setter
     private  List<WebEvent> webEvents;
-    private final Logger logger = Logger.getLogger(WebEventGeneralTreePipeline.class.getName());
+    private static final Logger logger = Logger.getLogger(WebEventGeneralTreePipeline.class.getName());
 
     public WebEventGeneralTreePipeline(List<PipelineStage<?, ?>> stages) {
         this.stages = stages;
@@ -35,7 +36,7 @@ public class WebEventGeneralTreePipeline {
         for (PipelineStage<?, ?> stage : stages) {
             logger.log(Level.INFO, "Processing stage: {0}", stage.getName());
             input = stage.process(input);
-            logger.info("Input for next stage: " + input);
+            logger.log(Level.INFO, "Input for next stage: {0}", input);
         }
     }
 }

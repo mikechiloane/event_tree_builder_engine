@@ -1,30 +1,34 @@
 package com.recceda.pipeline.stages;
 
+import java.io.IOException;
+import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.recceda.model.EventNode;
 import com.recceda.pipeline.PipelineStage;
 
-import java.util.List;
-import java.util.Map;
-
-public class SaveToFileStage implements PipelineStage<Map<EventNode, List<EventNode>>, Void> {
+public class SaveToFileStage implements PipelineStage<List<EventNode>, List<EventNode>> {
 
     private final String stageName = "SaveToFile";
+    private final static Logger logger = Logger.getLogger(SaveToFileStage.class.getName());
 
     @Override
-    public Void process(Object input) {
+    public List<EventNode> process(Object input) {
 
-        System.out.println("Saving data to file: " + input);
-        List<EventNode> groupedEvents = ( List<EventNode>) input;
+        logger.info(stageName + " started processing.");
+        List<EventNode> groupedEvents = (List<EventNode>) input;
         ObjectMapper objectMapper = new ObjectMapper();
         try {
             objectMapper.writeValue(new java.io.File("grouped_events.json"), groupedEvents);
-            System.out.println("Data saved successfully.");
-        } catch (Exception e) {
-            System.err.println("Error saving data to file: " + e.getMessage());
+            logger.info("Data saved to grouped_events.json successfully.");
+            return groupedEvents;
+        } catch (IOException e) {
+            logger.log(Level.SEVERE, "Error saving data to file: {0}", e.getMessage());
         }
-
         return null;
+
     }
 
     @Override
