@@ -33,9 +33,5 @@ public class LoadEventsStage implements PipelineStage<List<WebEvent>, List<Event
         return stageName;
     }
 
-    @Override
-    public PipelineStage getNextStage() {
-        // Return the next stage in the pipeline, or null if this is the last stage
-        return null;
-    }
+
 }

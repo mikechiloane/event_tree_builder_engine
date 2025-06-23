@@ -18,10 +18,4 @@ public interface PipelineStage<I, O> {
      */
     String getName();
 
-    /**
-     * Returns the next stage in the pipeline.
-     *
-     * @return the next stage, or null if this is the last stage
-     */
-    PipelineStage<O, ?> getNextStage();
 }

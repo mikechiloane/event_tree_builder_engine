@@ -2,8 +2,9 @@ package com.recceda.pipeline;
 
 import com.recceda.model.WebEvent;
 import com.recceda.pipeline.stages.BuildEventNodeStage;
-import com.recceda.pipeline.stages.EventGroupingStage;
+import com.recceda.pipeline.stages.EventHierarchyBuilderStage;
 import com.recceda.pipeline.stages.LoadEventsStage;
+import com.recceda.pipeline.stages.SaveToFileStage;
 import com.recceda.processor.MongoWebEventJsonProcessor;
 import junit.framework.TestCase;
 
@@ -23,14 +24,15 @@ public class WebEventGeneralTreePipelineTest extends TestCase {
         List<PipelineStage<?, ?>> stages = List.of(
                 new LoadEventsStage(),
                 new BuildEventNodeStage(),
-                new EventGroupingStage()
+                new EventHierarchyBuilderStage(),
+                new SaveToFileStage()
         );
 
         WebEventGeneralTreePipeline pipeline = new WebEventGeneralTreePipeline(stages);
         pipeline.setWebEvents(events);
         pipeline.execute();
         assertNotNull("Pipeline should not be null", pipeline);
-        assertEquals("Pipeline should have 2 stages", 3, pipeline.getStages().size());
+        assertEquals("Pipeline should have 2 stages", 4, pipeline.getStages().size());
         assertEquals("First stage should be LoadEventsStage", "LoadEventsStage", pipeline.getStages().get(0).getName());
         assertEquals("Second stage should be BuildEventNodeStage", "BuildEventNodeStage", pipeline.getStages().get(1).getName());
 
