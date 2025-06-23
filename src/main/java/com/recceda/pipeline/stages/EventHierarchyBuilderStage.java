@@ -1,15 +1,15 @@
 package com.recceda.pipeline.stages;
 
-import com.recceda.model.EventNode;
-import com.recceda.model.event.Event;
-import com.recceda.model.event.Page;
-import com.recceda.pipeline.PipelineStage;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 import java.util.stream.Collectors;
+
+import com.recceda.model.EventNode;
+import com.recceda.model.event.Event;
+import com.recceda.model.event.Page;
+import com.recceda.pipeline.PipelineStage;
 
 public class EventHierarchyBuilderStage implements PipelineStage<List<EventNode>, List<EventNode>> {
 
@@ -26,7 +26,6 @@ public class EventHierarchyBuilderStage implements PipelineStage<List<EventNode>
             String path = entry.getKey();
             List<EventNode> nodes = entry.getValue();
             EventNode parentNode = buildParentNode(path, nodes);
-            nodes.forEach(node -> node.setParentId(parentNode.getId()));
             nodes.forEach(node -> node.setParentId(parentNode.getId()));
             enrichedEventNodes.addAll(nodes);
             enrichedEventNodes.add(parentNode);
