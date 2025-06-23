@@ -36,8 +36,5 @@ public class BuildEventNodeStage implements PipelineStage<List<Event>, List<Even
         return stageName;
     }
 
-    @Override
-    public PipelineStage<List<EventNode>, ?> getNextStage() {
-        return null;
-    }
+
 }

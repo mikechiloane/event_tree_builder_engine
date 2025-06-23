@@ -29,7 +29,7 @@ public class MongoWebEventJsonProcessorTest extends TestCase {
 
 
 
-       public void testNumberOfBatchs() {
+       public void testNumberOfBatches() {
            try {
                MongoWebEventJsonProcessor processor = new MongoWebEventJsonProcessor();
                String filePath = "src/test/resources/webevents.json";
