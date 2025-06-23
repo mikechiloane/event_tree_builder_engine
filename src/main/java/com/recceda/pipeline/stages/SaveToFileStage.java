@@ -21,7 +21,7 @@ public class SaveToFileStage implements PipelineStage<List<EventNode>, List<Even
         List<EventNode> groupedEvents = (List<EventNode>) input;
         ObjectMapper objectMapper = new ObjectMapper();
         try {
-            objectMapper.writeValue(new java.io.File("grouped_events.json"), groupedEvents);
+            objectMapper.writeValue(new java.io.File(OUTPUT_FILE_NAME), groupedEvents);
             logger.info("Data saved to grouped_events.json successfully.");
             return groupedEvents;
         } catch (IOException e) {
