@@ -25,7 +25,7 @@ public class SaveToFileStage implements PipelineStage<List<EventNode>, List<Even
             logger.info("Data saved to grouped_events.json successfully.");
             return groupedEvents;
         } catch (IOException e) {
-            logger.log(Level.SEVERE, "Error saving data to file: {0}", e.getMessage());
+            logger.log(Level.SEVERE, "Error saving data to file", e);
         }
         return null;
 
