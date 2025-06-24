@@ -1,0 +1,760 @@
+[
+    {
+        "id": "c79df2d0-2e6e-419c-b558-1c93dbe0f1d5",
+        "event": {
+            "type": "click",
+            "actionName": "View technologies",
+            "element": {
+                "tag": "a",
+                "id": null,
+                "classes": null,
+                "text": "technologies",
+                "attributes": {}
+            },
+            "event": {
+                "meta": null,
+                "events": null,
+                "timestamp": null
+            },
+            "page": {
+                "url": "https://mikechiloane.co.za/resume/experience",
+                "path": "/resume/experience",
+                "referrer": "",
+                "title": "Mike Chiloane Portfolio Site",
+                "width": 1470,
+                "height": 301
+            },
+            "timestamp": "2025-06-18T18:30:11.735Z",
+            "userId": "usr-uxp06pi6a",
+            "sessionId": "ses-krmklgjk1ih",
+            "deviceId": "dev-3do3wsed"
+        },
+        "level": 1,
+        "parentId": "32481123-b97e-422d-8e39-d6fd1954f5fb",
+        "children": null,
+        "childCount": 0
+    },
+    {
+        "id": "508555a2-a0db-45a3-8541-9b6284dcb512",
+        "event": {
+            "type": "click",
+            "actionName": "View education",
+            "element": {
+                "tag": "a",
+                "id": null,
+                "classes": null,
+                "text": "education",
+                "attributes": {}
+            },
+            "event": {
+                "meta": null,
+                "events": null,
+                "timestamp": null
+            },
+            "page": {
+                "url": "https://mikechiloane.co.za/resume/experience",
+                "path": "/resume/experience",
+                "referrer": "",
+                "title": "Mike Chiloane Portfolio Site",
+                "width": 1470,
+                "height": 301
+            },
+            "timestamp": "2025-06-18T18:30:25.131Z",
+            "userId": "usr-uxp06pi6a",
+            "sessionId": "ses-krmklgjk1ih",
+            "deviceId": "dev-3do3wsed"
+        },
+        "level": 1,
+        "parentId": "32481123-b97e-422d-8e39-d6fd1954f5fb",
+        "children": null,
+        "childCount": 0
+    },
+    {
+        "id": "567af0e7-a0ba-43fd-94a3-89c9e5247bb6",
+        "event": {
+            "type": "click",
+            "actionName": "View education",
+            "element": {
+                "tag": "a",
+                "id": null,
+                "classes": null,
+                "text": "education",
+                "attributes": {}
+            },
+            "event": {
+                "meta": null,
+                "events": null,
+                "timestamp": null
+            },
+            "page": {
+                "url": "https://mikechiloane.co.za/resume/experience",
+                "path": "/resume/experience",
+                "referrer": "",
+                "title": "Mike Chiloane Portfolio Site",
+                "width": 1470,
+                "height": 301
+            },
+            "timestamp": "2025-06-19T12:39:21.732Z",
+            "userId": "usr-uxp06pi6a",
+            "sessionId": "ses-g4fmga07x84",
+            "deviceId": "dev-3do3wsed"
+        },
+        "level": 1,
+        "parentId": "32481123-b97e-422d-8e39-d6fd1954f5fb",
+        "children": null,
+        "childCount": 0
+    },
+    {
+        "id": "32481123-b97e-422d-8e39-d6fd1954f5fb",
+        "event": {
+            "type": null,
+            "actionName": null,
+            "element": null,
+            "event": null,
+            "page": {
+                "url": null,
+                "path": "/resume/experience",
+                "referrer": null,
+                "title": null,
+                "width": 0,
+                "height": 0
+            },
+            "timestamp": null,
+            "userId": null,
+            "sessionId": null,
+            "deviceId": null
+        },
+        "level": 2,
+        "parentId": null,
+        "children": [
+            "c79df2d0-2e6e-419c-b558-1c93dbe0f1d5",
+            "508555a2-a0db-45a3-8541-9b6284dcb512",
+            "567af0e7-a0ba-43fd-94a3-89c9e5247bb6"
+        ],
+        "childCount": 3
+    },
+    {
+        "id": "5756a393-b4e1-40ec-852f-26fd6cfe860b",
+        "event": {
+            "type": "click",
+            "actionName": "Clicked on resume",
+            "element": {
+                "tag": "a",
+                "id": null,
+                "classes": null,
+                "text": "resume",
+                "attributes": {}
+            },
+            "event": {
+                "meta": null,
+                "events": null,
+                "timestamp": null
+            },
+            "page": {
+                "url": "https://mikechiloane.co.za/services",
+                "path": "/services",
+                "referrer": "",
+                "title": "Mike Chiloane Portfolio Site",
+                "width": 1470,
+                "height": 301
+            },
+            "timestamp": "2025-06-18T18:30:06.348Z",
+            "userId": "usr-uxp06pi6a",
+            "sessionId": "ses-krmklgjk1ih",
+            "deviceId": "dev-3do3wsed"
+        },
+        "level": 0,
+        "parentId": "12fd74f0-2bc3-4fb8-b018-2f3090f805fa",
+        "children": null,
+        "childCount": 0
+    },
+    {
+        "id": "0f70dfcc-2a63-4e62-a7a8-f408255ca4a2",
+        "event": {
+            "type": "click",
+            "actionName": "Clicked on resume",
+            "element": {
+                "tag": "a",
+                "id": null,
+                "classes": null,
+                "text": "resume",
+                "attributes": {}
+            },
+            "event": {
+                "meta": null,
+                "events": null,
+                "timestamp": null
+            },
+            "page": {
+                "url": "https://mikechiloane.co.za/services",
+                "path": "/services",
+                "referrer": "",
+                "title": "Mike Chiloane Portfolio Site",
+                "width": 1470,
+                "height": 301
+            },
+            "timestamp": "2025-06-19T12:39:45.715Z",
+            "userId": "usr-uxp06pi6a",
+            "sessionId": "ses-g4fmga07x84",
+            "deviceId": "dev-3do3wsed"
+        },
+        "level": 0,
+        "parentId": "12fd74f0-2bc3-4fb8-b018-2f3090f805fa",
+        "children": null,
+        "childCount": 0
+    },
+    {
+        "id": "12fd74f0-2bc3-4fb8-b018-2f3090f805fa",
+        "event": {
+            "type": null,
+            "actionName": null,
+            "element": null,
+            "event": null,
+            "page": {
+                "url": null,
+                "path": "/services",
+                "referrer": null,
+                "title": null,
+                "width": 0,
+                "height": 0
+            },
+            "timestamp": null,
+            "userId": null,
+            "sessionId": null,
+            "deviceId": null
+        },
+        "level": 1,
+        "parentId": null,
+        "children": [
+            "5756a393-b4e1-40ec-852f-26fd6cfe860b",
+            "0f70dfcc-2a63-4e62-a7a8-f408255ca4a2"
+        ],
+        "childCount": 2
+    },
+    {
+        "id": "9a76bd3e-9522-4bd7-910a-730be8d8634d",
+        "event": {
+            "type": "click",
+            "actionName": "View experience",
+            "element": {
+                "tag": "a",
+                "id": null,
+                "classes": null,
+                "text": "experience",
+                "attributes": {}
+            },
+            "event": {
+                "meta": null,
+                "events": null,
+                "timestamp": null
+            },
+            "page": {
+                "url": "https://mikechiloane.co.za/resume/education",
+                "path": "/resume/education",
+                "referrer": "",
+                "title": "Mike Chiloane Portfolio Site",
+                "width": 1470,
+                "height": 301
+            },
+            "timestamp": "2025-06-18T18:30:16.069Z",
+            "userId": "usr-uxp06pi6a",
+            "sessionId": "ses-krmklgjk1ih",
+            "deviceId": "dev-3do3wsed"
+        },
+        "level": 1,
+        "parentId": "0786f008-c8cc-41a5-81dc-3936ac608763",
+        "children": null,
+        "childCount": 0
+    },
+    {
+        "id": "1d420ccf-8fb1-49ae-a69d-06be469bebf3",
+        "event": {
+            "type": "click",
+            "actionName": "View technologies",
+            "element": {
+                "tag": "a",
+                "id": null,
+                "classes": null,
+                "text": "technologies",
+                "attributes": {}
+            },
+            "event": {
+                "meta": null,
+                "events": null,
+                "timestamp": null
+            },
+            "page": {
+                "url": "https://mikechiloane.co.za/resume/education",
+                "path": "/resume/education",
+                "referrer": "",
+                "title": "Mike Chiloane Portfolio Site",
+                "width": 1470,
+                "height": 301
+            },
+            "timestamp": "2025-06-18T18:30:27.636Z",
+            "userId": "usr-uxp06pi6a",
+            "sessionId": "ses-krmklgjk1ih",
+            "deviceId": "dev-3do3wsed"
+        },
+        "level": 1,
+        "parentId": "0786f008-c8cc-41a5-81dc-3936ac608763",
+        "children": null,
+        "childCount": 0
+    },
+    {
+        "id": "37bdde12-f136-47c9-b70c-84e4cdef6627",
+        "event": {
+            "type": "click",
+            "actionName": "View technologies",
+            "element": {
+                "tag": "a",
+                "id": null,
+                "classes": null,
+                "text": "technologies",
+                "attributes": {}
+            },
+            "event": {
+                "meta": null,
+                "events": null,
+                "timestamp": null
+            },
+            "page": {
+                "url": "https://mikechiloane.co.za/resume/education",
+                "path": "/resume/education",
+                "referrer": "",
+                "title": "Mike Chiloane Portfolio Site",
+                "width": 1470,
+                "height": 301
+            },
+            "timestamp": "2025-06-19T12:39:29.798Z",
+            "userId": "usr-uxp06pi6a",
+            "sessionId": "ses-g4fmga07x84",
+            "deviceId": "dev-3do3wsed"
+        },
+        "level": 1,
+        "parentId": "0786f008-c8cc-41a5-81dc-3936ac608763",
+        "children": null,
+        "childCount": 0
+    },
+    {
+        "id": "0786f008-c8cc-41a5-81dc-3936ac608763",
+        "event": {
+            "type": null,
+            "actionName": null,
+            "element": null,
+            "event": null,
+            "page": {
+                "url": null,
+                "path": "/resume/education",
+                "referrer": null,
+                "title": null,
+                "width": 0,
+                "height": 0
+            },
+            "timestamp": null,
+            "userId": null,
+            "sessionId": null,
+            "deviceId": null
+        },
+        "level": 2,
+        "parentId": null,
+        "children": [
+            "9a76bd3e-9522-4bd7-910a-730be8d8634d",
+            "1d420ccf-8fb1-49ae-a69d-06be469bebf3",
+            "37bdde12-f136-47c9-b70c-84e4cdef6627"
+        ],
+        "childCount": 3
+    },
+    {
+        "id": "99285429-1d67-4cc9-bbd0-fc039427b563",
+        "event": {
+            "type": "click",
+            "actionName": "Clicked on resume",
+            "element": {
+                "tag": "a",
+                "id": null,
+                "classes": null,
+                "text": "resume",
+                "attributes": {}
+            },
+            "event": {
+                "meta": null,
+                "events": null,
+                "timestamp": null
+            },
+            "page": {
+                "url": "https://mikechiloane.co.za/work",
+                "path": "/work",
+                "referrer": "",
+                "title": "Mike Chiloane Portfolio Site",
+                "width": 1470,
+                "height": 301
+            },
+            "timestamp": "2025-06-19T12:39:19.170Z",
+            "userId": "usr-uxp06pi6a",
+            "sessionId": "ses-g4fmga07x84",
+            "deviceId": "dev-3do3wsed"
+        },
+        "level": 0,
+        "parentId": "0b0c86a2-e1a4-40b3-bbbc-536f48cb212e",
+        "children": null,
+        "childCount": 0
+    },
+    {
+        "id": "8f767faa-6a54-48fe-9ea3-6524e83198b6",
+        "event": {
+            "type": "click",
+            "actionName": "Clicked on contact",
+            "element": {
+                "tag": "a",
+                "id": null,
+                "classes": null,
+                "text": "contact",
+                "attributes": {}
+            },
+            "event": {
+                "meta": null,
+                "events": null,
+                "timestamp": null
+            },
+            "page": {
+                "url": "https://mikechiloane.co.za/work",
+                "path": "/work",
+                "referrer": "",
+                "title": "Mike Chiloane Portfolio Site",
+                "width": 1470,
+                "height": 301
+            },
+            "timestamp": "2025-06-19T12:39:36.971Z",
+            "userId": "usr-uxp06pi6a",
+            "sessionId": "ses-g4fmga07x84",
+            "deviceId": "dev-3do3wsed"
+        },
+        "level": 0,
+        "parentId": "0b0c86a2-e1a4-40b3-bbbc-536f48cb212e",
+        "children": null,
+        "childCount": 0
+    },
+    {
+        "id": "0b0c86a2-e1a4-40b3-bbbc-536f48cb212e",
+        "event": {
+            "type": null,
+            "actionName": null,
+            "element": null,
+            "event": null,
+            "page": {
+                "url": null,
+                "path": "/work",
+                "referrer": null,
+                "title": null,
+                "width": 0,
+                "height": 0
+            },
+            "timestamp": null,
+            "userId": null,
+            "sessionId": null,
+            "deviceId": null
+        },
+        "level": 1,
+        "parentId": null,
+        "children": [
+            "99285429-1d67-4cc9-bbd0-fc039427b563",
+            "8f767faa-6a54-48fe-9ea3-6524e83198b6"
+        ],
+        "childCount": 2
+    },
+    {
+        "id": "0056ab09-2de9-4400-9c7f-387c53f260d6",
+        "event": {
+            "type": "click",
+            "actionName": "Clicked on home",
+            "element": {
+                "tag": "a",
+                "id": null,
+                "classes": null,
+                "text": "home",
+                "attributes": {}
+            },
+            "event": {
+                "meta": null,
+                "events": null,
+                "timestamp": null
+            },
+            "page": {
+                "url": "https://mikechiloane.co.za/contact",
+                "path": "/contact",
+                "referrer": "",
+                "title": "Mike Chiloane Portfolio Site",
+                "width": 1470,
+                "height": 301
+            },
+            "timestamp": "2025-06-19T12:39:40.815Z",
+            "userId": "usr-uxp06pi6a",
+            "sessionId": "ses-g4fmga07x84",
+            "deviceId": "dev-3do3wsed"
+        },
+        "level": 0,
+        "parentId": "be5e60b8-abc4-49c6-b752-ed1724a62f68",
+        "children": null,
+        "childCount": 0
+    },
+    {
+        "id": "be5e60b8-abc4-49c6-b752-ed1724a62f68",
+        "event": {
+            "type": null,
+            "actionName": null,
+            "element": null,
+            "event": null,
+            "page": {
+                "url": null,
+                "path": "/contact",
+                "referrer": null,
+                "title": null,
+                "width": 0,
+                "height": 0
+            },
+            "timestamp": null,
+            "userId": null,
+            "sessionId": null,
+            "deviceId": null
+        },
+        "level": 1,
+        "parentId": null,
+        "children": [
+            "0056ab09-2de9-4400-9c7f-387c53f260d6"
+        ],
+        "childCount": 1
+    },
+    {
+        "id": "9a0eb58f-dcbe-4f4c-aa67-79f829acdf32",
+        "event": {
+            "type": "click",
+            "actionName": "View education",
+            "element": {
+                "tag": "a",
+                "id": null,
+                "classes": null,
+                "text": "education",
+                "attributes": {}
+            },
+            "event": {
+                "meta": null,
+                "events": null,
+                "timestamp": null
+            },
+            "page": {
+                "url": "https://mikechiloane.co.za/resume/technologies",
+                "path": "/resume/technologies",
+                "referrer": "",
+                "title": "Mike Chiloane Portfolio Site",
+                "width": 1470,
+                "height": 301
+            },
+            "timestamp": "2025-06-18T18:30:13.970Z",
+            "userId": "usr-uxp06pi6a",
+            "sessionId": "ses-krmklgjk1ih",
+            "deviceId": "dev-3do3wsed"
+        },
+        "level": 1,
+        "parentId": "bd7486c8-23bd-4694-95b5-e6e5c8f064e1",
+        "children": null,
+        "childCount": 0
+    },
+    {
+        "id": "3a153c5b-4414-42d2-9b88-1821564f3955",
+        "event": {
+            "type": "click",
+            "actionName": "Clicked on work",
+            "element": {
+                "tag": "a",
+                "id": null,
+                "classes": null,
+                "text": "work",
+                "attributes": {}
+            },
+            "event": {
+                "meta": null,
+                "events": null,
+                "timestamp": null
+            },
+            "page": {
+                "url": "https://mikechiloane.co.za/resume/technologies",
+                "path": "/resume/technologies",
+                "referrer": "",
+                "title": "Mike Chiloane Portfolio Site",
+                "width": 1470,
+                "height": 301
+            },
+            "timestamp": "2025-06-18T18:30:29.569Z",
+            "userId": "usr-uxp06pi6a",
+            "sessionId": "ses-krmklgjk1ih",
+            "deviceId": "dev-3do3wsed"
+        },
+        "level": 1,
+        "parentId": "bd7486c8-23bd-4694-95b5-e6e5c8f064e1",
+        "children": null,
+        "childCount": 0
+    },
+    {
+        "id": "ecd9a2ff-d7f6-4e4c-a6d8-afefcb433157",
+        "event": {
+            "type": "click",
+            "actionName": "Clicked on work",
+            "element": {
+                "tag": "a",
+                "id": null,
+                "classes": null,
+                "text": "work",
+                "attributes": {}
+            },
+            "event": {
+                "meta": null,
+                "events": null,
+                "timestamp": null
+            },
+            "page": {
+                "url": "https://mikechiloane.co.za/resume/technologies",
+                "path": "/resume/technologies",
+                "referrer": "",
+                "title": "Mike Chiloane Portfolio Site",
+                "width": 1470,
+                "height": 301
+            },
+            "timestamp": "2025-06-19T12:39:33.532Z",
+            "userId": "usr-uxp06pi6a",
+            "sessionId": "ses-g4fmga07x84",
+            "deviceId": "dev-3do3wsed"
+        },
+        "level": 1,
+        "parentId": "bd7486c8-23bd-4694-95b5-e6e5c8f064e1",
+        "children": null,
+        "childCount": 0
+    },
+    {
+        "id": "bd7486c8-23bd-4694-95b5-e6e5c8f064e1",
+        "event": {
+            "type": null,
+            "actionName": null,
+            "element": null,
+            "event": null,
+            "page": {
+                "url": null,
+                "path": "/resume/technologies",
+                "referrer": null,
+                "title": null,
+                "width": 0,
+                "height": 0
+            },
+            "timestamp": null,
+            "userId": null,
+            "sessionId": null,
+            "deviceId": null
+        },
+        "level": 2,
+        "parentId": null,
+        "children": [
+            "9a0eb58f-dcbe-4f4c-aa67-79f829acdf32",
+            "3a153c5b-4414-42d2-9b88-1821564f3955",
+            "ecd9a2ff-d7f6-4e4c-a6d8-afefcb433157"
+        ],
+        "childCount": 3
+    },
+    {
+        "id": "649b0cff-73a4-4080-b514-951ae7a7c385",
+        "event": {
+            "type": "click",
+            "actionName": "Clicked on services",
+            "element": {
+                "tag": "a",
+                "id": null,
+                "classes": null,
+                "text": "services",
+                "attributes": {}
+            },
+            "event": {
+                "meta": null,
+                "events": null,
+                "timestamp": null
+            },
+            "page": {
+                "url": "https://mikechiloane.co.za/",
+                "path": "/",
+                "referrer": "",
+                "title": "Mike Chiloane Portfolio Site",
+                "width": 1470,
+                "height": 301
+            },
+            "timestamp": "2025-06-18T18:30:00.534Z",
+            "userId": "usr-uxp06pi6a",
+            "sessionId": "ses-krmklgjk1ih",
+            "deviceId": "dev-3do3wsed"
+        },
+        "level": 0,
+        "parentId": "5f395d38-b30a-45f0-a158-a3c8d07c1fb3",
+        "children": null,
+        "childCount": 0
+    },
+    {
+        "id": "b3a3bd54-8d8a-4599-8627-f08661b271c7",
+        "event": {
+            "type": "click",
+            "actionName": "Clicked on services",
+            "element": {
+                "tag": "a",
+                "id": null,
+                "classes": null,
+                "text": "services",
+                "attributes": {}
+            },
+            "event": {
+                "meta": null,
+                "events": null,
+                "timestamp": null
+            },
+            "page": {
+                "url": "https://mikechiloane.co.za/",
+                "path": "/",
+                "referrer": "",
+                "title": "Mike Chiloane Portfolio Site",
+                "width": 1470,
+                "height": 301
+            },
+            "timestamp": "2025-06-19T12:39:43.689Z",
+            "userId": "usr-uxp06pi6a",
+            "sessionId": "ses-g4fmga07x84",
+            "deviceId": "dev-3do3wsed"
+        },
+        "level": 0,
+        "parentId": "5f395d38-b30a-45f0-a158-a3c8d07c1fb3",
+        "children": null,
+        "childCount": 0
+    },
+    {
+        "id": "5f395d38-b30a-45f0-a158-a3c8d07c1fb3",
+        "event": {
+            "type": null,
+            "actionName": null,
+            "element": null,
+            "event": null,
+            "page": {
+                "url": null,
+                "path": "/",
+                "referrer": null,
+                "title": null,
+                "width": 0,
+                "height": 0
+            },
+            "timestamp": null,
+            "userId": null,
+            "sessionId": null,
+            "deviceId": null
+        },
+        "level": 0,
+        "parentId": null,
+        "children": [
+            "649b0cff-73a4-4080-b514-951ae7a7c385",
+            "b3a3bd54-8d8a-4599-8627-f08661b271c7"
+        ],
+        "childCount": 2
+    }
+]
